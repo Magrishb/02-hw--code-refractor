@@ -1,43 +1,7 @@
-# 02 Homework: Code Refactor
-
-> Always leave the code you are editing a little cleaner than you found it.
-
-## User Story
-
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+# 02 Homework: Code Refactor 
 
 
 ## Changed performed for given assignment
-
-
 
 ##### Changes for header
    * In style.css, header h1.seo was deleted and the contents inside were moved to header h1.
@@ -79,6 +43,23 @@ You are required to submit the following for review:
    * Changed nav css color to section color
    * Changed aside color to section color
    
+   
+> Always leave the code you are editing a little cleaner than you found it.
+
+## Acknowledgments
+
+```
+Initally, when I was given the task at hand, I was clueless. 
+It took many Study Rooms and Breakout Rooms before I saw what the 
+task required. After I saw a few examples from many different peers,
+I had found a general idea of this assignment which I went and asked
+google. I found everything I need and with a little playing around 
+and a lot of peer reviews/help, I was able to work on this task to 
+the best of my abilities. I would like to acknowledge my entire 
+GTech BootCanp class and pod2!
+```
+
+
 
 - - -
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
