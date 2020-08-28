@@ -1,8 +1,48 @@
-# 01 HTML CSS Git: Code Refactor
+# 02 Homework: Code Refactor
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+
+##### Changes for header
+   * In style.css, header h1.seo was deleted and the contents inside were moved to header h1.
+   * Changed html div section with class=header i.e. changed non-semantic header to semantic header
+   * Changed inner div of header section to nav
+   * Changed .header class in style.css to header
+   * Changed div within .header class to nav 
+
+##### Changes for hero div
+   * Changed div to section
+
+##### Changes for section
+   * Changed outer divs to section 
+   * Changed inner divs to article
+ 
+##### Changes for aside
+   * Changed outer divs to aside 
+   * Changed inner divs to article
+   
+##### Changes for footer
+   * Changed outer divs to footer 
+   * Changed css class .footer to footer
+    
+##### Changes for images
+   * Added alt tags for all the images
+   
+##### Changes for duplicate css classes for section
+   * Removed duplicate css classes to common css classes
+   * Changed html to use common css class
+ 
+##### Changes for duplicate css classes for aside
+   * Removed duplicate css classes to common css classes
+   * Changed html to use common css class
+   
+##### Changes for nav click
+   * Add id for section search-engine-optimizer
+   
+##### Additional changes
+   * Changed nav css color to section color
+   * Changed aside color to section color
+   
+
 
 > Always leave the code you are editing a little cleaner than you found it.
 
@@ -41,4 +81,4 @@ You are required to submit the following for review:
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 - - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
